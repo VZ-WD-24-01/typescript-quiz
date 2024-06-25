@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Which array method returns a new array containing elements that pass a test specified by a provided function?",
+    "answers": ["map", "filter", "reduce", "forEach"],
+    "correct": 1
+  },
+  {
+    "question": "Which loop in TypeScript executes its statements at least once, even if the condition is false?",
+    "answers": ["for loop", "do-while loop", "while loop", "forEach loop"],
+    "correct": 1
+  },
+  {
+    "question": "What does the switch statement evaluate in TypeScript?",
+    "answers": ["Boolean expressions", "String expressions", "Numeric expressions", "Any primitive data type"],
+    "correct": 3
+  },
+  {
+    "question": "In TypeScript, which conditional statement allows for executing different code blocks based on different conditions?",
+    "answers": ["if", "else", "elseif", "All of the above"],
+    "correct": 3
+  },
+  {
+    "question": "Which TypeScript keyword is used to define a reusable block of code that performs a specific task?",
+    "answers": ["function", "method", "procedure", "routine"],
+    "correct": 0
+  },
+  {
+    "question": "What is the arrow function equivalent of the following function declaration in TypeScript?\n\nfunction add(a: number, b: number): number {\n    return a + b;\n}",
+    "answers": [
+      "(a: number, b: number) => a + b;",
+      "add => (a: number, b: number) => a + b;",
+      "(a, b) => { return a + b; };",
+      "add => a + b;"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which DOM method is used to find the first child element of a specified element?",
+    "answers": ["getElementById", "querySelector", "getElementsByClassName", "querySelectorAll"],
+    "correct": 1
+  },
+  {
+    "question": "In TypeScript, which BOM method is used to repeatedly execute a specified function at defined time intervals?",
+    "answers": ["setInterval", "setTimeout", "requestAnimationFrame", "clearInterval"],
+    "correct": 0
+  },
+  {
+    "question": "Which TypeScript construct allows for creating blueprints for objects with both properties and methods?",
+    "answers": ["Interfaces", "Functions", "Enums", "Arrays"],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of inheritance in TypeScript classes?",
+    "answers": [
+      "To allow one class to extend another class and inherit its properties and methods",
+      "To define methods that cannot be overridden by subclasses",
+      "To restrict access to certain class members",
+      "To enforce immutability of class instances"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In TypeScript, which keyword is used to declare an enum?",
+    "answers": ["enum", "type", "class", "interface"],
+    "correct": 0
+  },
+  {
+    "question": "Which TypeScript feature allows an enum member to have a custom value?",
+    "answers": ["Alias", "CustomValue", "EnumValue", "Initializer"],
+    "correct": 3
+  },
+  {
+    "question": "Which array method returns the index of the first element in the array that satisfies the provided testing function?",
+    "answers": ["findIndex", "indexOf", "find", "search"],
+    "correct": 0
+  },
+  {
+    "question": "Which loop in TypeScript executes its statements as long as a specified condition is true?",
+    "answers": ["for loop", "do-while loop", "while loop", "forEach loop"],
+    "correct": 2
+  },
+  {
+    "question": "What is the correct syntax for defining an interface in TypeScript?",
+    "answers": [
+      "interface MyInterface { }",
+      "type MyInterface { }",
+      "class MyInterface { }",
+      "function MyInterface { }"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which BOM method in TypeScript is used to schedule a function to be called after a specified number of milliseconds?",
+    "answers": ["setImmediate", "setInterval", "setTimeout", "requestAnimationFrame"],
+    "correct": 2
+  },
+  {
+    "question": "In TypeScript, how can you define a method in a class that can be overridden by subclasses?",
+    "answers": [
+      "Mark the method with private",
+      "Mark the method with final",
+      "Mark the method with static",
+      "Do not mark the method with any specific keyword"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which TypeScript construct allows for defining a union of several types for a single property?",
+    "answers": ["Intersection type", "Discriminated union", "Partial type", "Union type"],
+    "correct": 3
+  },
+  {
+    "question": "What does the break statement do inside a switch statement in TypeScript?",
+    "answers": [
+      "Skips the remaining cases and continues with the next iteration",
+      "Exits the switch statement entirely",
+      "Moves to the next case without executing the current case's code",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In TypeScript, which array method returns a new array with the elements sorted in ascending order?",
+    "answers": ["sort", "reverse", "slice", "map"],
+    "correct": 0
+  }
+]

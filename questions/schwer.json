@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Welche Array-Methode gibt ein neues Array zurück, das Elemente enthält, die von einer bereitgestellten Funktion getestet werden?",
+    "answers": ["map", "filter", "reduce", "forEach"],
+    "correct": 1
+  },
+  {
+    "question": "Welche Schleife in TypeScript führt ihre Anweisungen mindestens einmal aus, auch wenn die Bedingung falsch ist?",
+    "answers": ["for-Schleife", "do-while-Schleife", "while-Schleife", "forEach-Schleife"],
+    "correct": 1
+  },
+  {
+    "question": "Was evaluiert die switch-Anweisung in TypeScript?",
+    "answers": ["Boolesche Ausdrücke", "Zeichenfolgenausdrücke", "Numerische Ausdrücke", "Jeder primitive Datentyp"],
+    "correct": 3
+  },
+  {
+    "question": "In TypeScript erlaubt welche bedingte Anweisung die Ausführung unterschiedlicher Codeblöcke basierend auf verschiedenen Bedingungen?",
+    "answers": ["if", "else", "elseif", "Alle oben genannten"],
+    "correct": 3
+  },
+  {
+    "question": "Welches TypeScript-Schlüsselwort wird verwendet, um einen wiederverwendbaren Codeblock zu definieren, der eine spezifische Aufgabe ausführt?",
+    "answers": ["function", "method", "procedure", "routine"],
+    "correct": 0
+  },
+  {
+    "question": "Was ist die Pfeilfunktion für die folgende Funktionsdeklaration in TypeScript?\n\nfunction add(a: number, b: number): number {\n    return a + b;\n}",
+    "answers": [
+      "(a: number, b: number) => a + b;",
+      "add => (a: number, b: number) => a + b;",
+      "(a, b) => { return a + b; };",
+      "add => a + b;"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche DOM-Methode wird verwendet, um das erste untergeordnete Element eines angegebenen Elements zu finden?",
+    "answers": ["getElementById", "querySelector", "getElementsByClassName", "querySelectorAll"],
+    "correct": 1
+  },
+  {
+    "question": "In TypeScript, welche BOM-Methode wird verwendet, um eine angegebene Funktion in definierten Zeitintervallen wiederholt auszuführen?",
+    "answers": ["setInterval", "setTimeout", "requestAnimationFrame", "clearInterval"],
+    "correct": 0
+  },
+  {
+    "question": "Welcher TypeScript-Konstrukt erlaubt das Erstellen von Bauplänen für Objekte mit Eigenschaften und Methoden?",
+    "answers": ["Interfaces", "Functions", "Enums", "Arrays"],
+    "correct": 0
+  },
+  {
+    "question": "Was ist der Zweck der Vererbung in TypeScript-Klassen?",
+    "answers": [
+      "Eine Klasse erweitert eine andere Klasse und erbt deren Eigenschaften und Methoden",
+      "Definiert Methoden, die nicht von Unterklassen überschrieben werden können",
+      "Beschränkt den Zugriff auf bestimmte Klassenmember",
+      "Erzwingt die Unveränderlichkeit von Klasseninstanzen"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In TypeScript, welches Schlüsselwort wird verwendet, um ein enum zu deklarieren?",
+    "answers": ["enum", "type", "class", "interface"],
+    "correct": 0
+  },
+  {
+    "question": "Welches TypeScript-Feature erlaubt einem enum-Mitglied, einen benutzerdefinierten Wert zu haben?",
+    "answers": ["Alias", "CustomValue", "EnumValue", "Initializer"],
+    "correct": 3
+  },
+  {
+    "question": "Welche Array-Methode gibt den Index des ersten Elements im Array zurück, das die bereitgestellte Testfunktion erfüllt?",
+    "answers": ["findIndex", "indexOf", "find", "search"],
+    "correct": 0
+  },
+  {
+    "question": "Welche Schleife in TypeScript führt ihre Anweisungen aus, solange eine angegebene Bedingung wahr ist?",
+    "answers": ["for-Schleife", "do-while-Schleife", "while-Schleife", "forEach-Schleife"],
+    "correct": 2
+  },
+  {
+    "question": "Was ist die richtige Syntax zur Definition einer Schnittstelle in TypeScript?",
+    "answers": [
+      "interface MyInterface { }",
+      "type MyInterface { }",
+      "class MyInterface { }",
+      "function MyInterface { }"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Welche BOM-Methode in TypeScript wird verwendet, um eine Funktion zu planen, die nach einer angegebenen Anzahl von Millisekunden aufgerufen wird?",
+    "answers": ["setImmediate", "setInterval", "setTimeout", "requestAnimationFrame"],
+    "correct": 2
+  },
+  {
+    "question": "In TypeScript, wie können Sie eine Methode in einer Klasse definieren, die von Unterklassen überschrieben werden kann?",
+    "answers": [
+      "Markieren Sie die Methode als private",
+      "Markieren Sie die Methode als final",
+      "Markieren Sie die Methode als static",
+      "Markieren Sie die Methode nicht mit einem spezifischen Schlüsselwort"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Welches TypeScript-Konstrukt erlaubt die Definition einer Union mehrerer Typen für eine einzelne Eigenschaft?",
+    "answers": ["Intersection type", "Discriminated union", "Partial type", "Union type"],
+    "correct": 3
+  },
+  {
+    "question": "Was macht die break-Anweisung innerhalb einer switch-Anweisung in TypeScript?",
+    "answers": [
+      "Überspringt die verbleibenden Fälle und fährt mit der nächsten Iteration fort",
+      "Beendet die switch-Anweisung vollständig",
+      "Geht zum nächsten Fall, ohne den Code des aktuellen Falls auszuführen",
+      "Keines der oben genannten"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In TypeScript, welche Array-Methode gibt ein neues Array mit den Elementen zurück, die in aufsteigender Reihenfolge sortiert sind?",
+    "answers": ["sort", "reverse", "slice", "map"],
+    "correct": 0
+  }
+]

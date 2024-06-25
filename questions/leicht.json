@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Was ist TypeScript?",
+    "answers": [
+      "Eine Art Datenbank",
+      "Eine Obermenge von JavaScript",
+      "Eine Version von Java",
+      "Eine Auszeichnungssprache"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welches Schlüsselwort wird verwendet, um eine Variable in TypeScript zu deklarieren?",
+    "answers": ["let", "var", "const", "Alle oben genannten"],
+    "correct": 3
+  },
+  {
+    "question": "Welche Dateierweiterung wird für TypeScript-Dateien verwendet?",
+    "answers": [".java", ".py", ".ts", ".js"],
+    "correct": 2
+  },
+  {
+    "question": "Wie definiert man keine Strings in TypeScript?",
+    "answers": [
+      "let name: string = 'John';",
+      "let name = 'John';",
+      "let name = 'John': string;",
+      "let name: string; name = 'John';"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Was ist der Zweck des 'as'-Schlüsselworts in TypeScript?",
+    "answers": [
+      "Um eine Variable umzubenennen",
+      "Um eine Variable in einen bestimmten Typ zu konvertieren",
+      "Um eine neue Variable zu erstellen",
+      "Um einen neuen Typ zu definieren"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Wie definiert man kein Array von Zahlen in TypeScript?",
+    "answers": [
+      "let numbers: number[] = [1, 2, 3];",
+      "let numbers: [number] = [1, 2, 3];",
+      "let numbers = [1, 2, 3];",
+      "let numbers: Array<number> = [1, 2, 3];"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Was bewirkt der 'readonly'-Modifikator?",
+    "answers": [
+      "Macht eine Variable konstant",
+      "Macht eine Eigenschaft unveränderlich",
+      "Definiert einen neuen Typ",
+      "Erstellt eine private Eigenschaft"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Wie definiert man ein Interface in TypeScript?",
+    "answers": [
+      "interface Person { name: string; age: number; }",
+      "type Person { name: string; age: number; }",
+      "class Person { name: string; age: number; }",
+      "function Person(name: string, age: number) {}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was ist der Standardzugriffsmodifikator für Mitglieder einer Klasse in TypeScript?",
+    "answers": ["public", "private", "protected", "readonly"],
+    "correct": 0
+  },
+  {
+    "question": "Welche der folgenden Optionen wird verwendet, um asynchrone Operationen in TypeScript zu handhaben?",
+    "answers": ["Promises", "Callbacks", "Async/Await", "Alle oben genannten"],
+    "correct": 3
+  },
+  {
+    "question": "Wie installiert man TypeScript global mit npm?",
+    "answers": [
+      "npm install typescript",
+      "npm install -g typescript",
+      "npm typescript install",
+      "npm install -global typescript"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Wie kompiliert man eine TypeScript-Datei?",
+    "answers": ["tsc filename.ts", "compile filename.ts", "ts compile filename.ts", "typescript filename.ts"],
+    "correct": 0
+  },
+  {
+    "question": "Was ist der Befehl, um ein TypeScript-Projekt zu initialisieren?",
+    "answers": ["tsc --init", "ts --init", "typescript --init", "tsinit"],
+    "correct": 0
+  },
+  {
+    "question": "Wie definiert man ein Tupel in TypeScript?",
+    "answers": [
+      "let tuple: [number, string] = [1, 'hello'];",
+      "let tuple = [1, 'hello'];",
+      "let tuple: (number, string) = (1, 'hello');",
+      "let tuple: {number, string} = {1, 'hello'};"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Was ist der Ausgabetyp des 'typeof'-Operators?",
+    "answers": ["boolean", "number", "string", "object"],
+    "correct": 2
+  },
+  {
+    "question": "Wie erstellt man einen Unionstyp in TypeScript?",
+    "answers": [
+      "let value: number|or|string;",
+      "let value: number|string;",
+      "let value = number|string;",
+      "let value: (number|string);"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Wie gibt man einen Funktionsparameter als optional an?",
+    "answers": [
+      "function myFunction(optional param: string) {}",
+      "function myFunction(?param: string) {}",
+      "function myFunction(param: string?) {}",
+      "function myFunction(param?: string) {}"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Wie definiert man den Rückgabetyp einer Funktion in TypeScript?",
+    "answers": [
+      "function myFunction: string() {}",
+      "function myFunction() -> string {}",
+      "function myFunction(): string {}",
+      "function myFunction(): {string} {}"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Welche der folgenden Funktionen bietet TypeScript, die JavaScript nicht hat?",
+    "answers": ["Array.map()", "Pfeilfunktionen", "Schnittstellen", "for-Schleife"],
+    "correct": 2
+  },
+  {
+    "question": "Wie erzwingt man einen bestimmten Typ für einen Funktionsparameter?",
+    "answers": [
+      "function greet(name: string, age) {}",
+      "function greet(name: string) {}",
+      "function greet(string name) {}",
+      "function greet(name: any) {}"
+    ],
+    "correct": 1
+  }
+]
